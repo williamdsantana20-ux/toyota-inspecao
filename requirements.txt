@@ -2,4 +2,5 @@ streamlit
 tensorflow
 numpy
 Pillow
+gdown
 h5py
