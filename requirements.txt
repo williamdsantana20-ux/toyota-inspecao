@@ -1,5 +1,5 @@
 streamlit
 tensorflow
 numpy
-pillow
+Pillow
 h5py
