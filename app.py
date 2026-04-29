@@ -1,10 +1,10 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+#from tensorflow.keras.models import load_model
+#from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # carregar modelo
-model = load_model("modelo_ok_nok.h5")
+#model = load_model("modelo_ok_nok.h5")
 
 st.title("Inspeção Visual Toyota 150D")
 
