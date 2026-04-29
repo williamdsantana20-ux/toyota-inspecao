@@ -2,6 +2,11 @@ import streamlit as st
 #from tensorflow.keras.models import load_model
 #from tensorflow.keras.preprocessing import image
 import numpy as np
+class FakeModel:
+    def predict(self, x):
+        return [[0.99]]
+
+model = FakeModel()
 
 # carregar modelo
 #model = load_model("modelo_ok_nok.h5")
