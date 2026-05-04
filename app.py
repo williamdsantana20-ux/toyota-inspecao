@@ -7,7 +7,7 @@ from io import BytesIO
 from PIL import Image, ImageOps
 
 
-LIMITE_AREA_CLARA_NOK = 0.745
+LIMITE_AREA_CLARA_NOK = 0.83
 TAMANHO_DETECCAO = 640
 TAMANHO_ANALISE = 128
 
