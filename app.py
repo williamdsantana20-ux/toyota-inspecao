@@ -32,7 +32,7 @@ HTML = """<!doctype html>
     <h1>Classificador de Pecas</h1>
     <p class="meta">Envie ou tire uma foto da peca para verificar se ela parece OK ou NOK.</p>
     <form id="form">
-      <input id="foto" name="foto" type="file" accept="image/*" capture="environment" required>
+     <input id="foto" name="foto" type="file" accept="image/*" required>
       <button id="botao" type="submit">Classificar peca</button>
     </form>
     <section id="resultado" class="resultado">
